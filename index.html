@@ -21,22 +21,35 @@
 
     </script>
     <style>
-        #mft-img {
-            width:500px;
-            height:auto;
+        html, body {
+            width: 100%;
+            height: 100%;
+            border: 0;
+            font-family: sans-serif;
+        
         }
         body {
-            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+        img {
+            width: auto;
+            height: auto;
+            margin: auto;
+        }
+        h2 {
+            font-size: 6rem;
+            margin: 1rem;
         }
     </style>
 </head>
 
 
 
-<div>
-    msb fungible token
-    <br>
-
-    <img src="" id="mft-img" width="500px">
+<body>
+    <h1>msb fungible token</h1>
+    <img src="" id="mft-img">
     <h2 id="mft-name"></h2>
-</div>
+</body>
