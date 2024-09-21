@@ -1,4 +1,5 @@
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <script>
         //Get query ID
         let id = new URLSearchParams(window.location.search).get('id');
@@ -38,9 +39,13 @@
             width: auto;
             height: auto;
             margin: auto;
+            max-height: 60%;
+            max-width: 100%;
         }
+        h1 {
+            font-size: 1rem;
         h2 {
-            font-size: 6rem;
+            font-size: 2rem;
             margin: 1rem;
         }
     </style>
